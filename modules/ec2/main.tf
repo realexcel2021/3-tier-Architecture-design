@@ -8,6 +8,7 @@ resource "aws_instance" "two_tier_server" {
     key_name = "Two_Tier_Key_Pair"
     subnet_id = var.subnet_id
     vpc_security_group_ids = var.vpc_security_group_ids
+    user_data = "${file("${path.module}/services.sh")}"
 
     tags = {
       Name = var.Name
