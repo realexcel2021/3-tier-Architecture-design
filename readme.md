@@ -19,4 +19,12 @@
 
 <h2> Prerequisites </h2>
 To use this terraform code, you need to have the following prerequisites:
-1. <p> <a href="https://www.terraform.io/downloads.html"> Terraform </a> Installed on your machine </p>
+<p>1. <a href="https://www.terraform.io/downloads.html"> Terraform </a> Installed on your machine </p>
+<p> 2. AWS account credentials with appropriate permissions to provision resources. </p>
+
+<h2> Getting Started </h2>
+<p> Follow the steps below to get started with this infrastructure as code using Terraform: </p>
+
+<p> 1. Clone this repository to your local machine:
+` git clone https://github.com/realexcel2021/3-tier-Architecture-design `
+</p>
