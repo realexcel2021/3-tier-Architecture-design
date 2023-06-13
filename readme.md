@@ -11,6 +11,7 @@
 <p> :heavy_check_mark: 9 Subnets for High availability </p>
 <p> :heavy_check_mark: 1 NAT Gateway </p>
 <p> :heavy_check_mark: 1 Internet Gateway </p>
+<p> :heavy_check_mark: US-EAST-1 </p>
 
 
 
