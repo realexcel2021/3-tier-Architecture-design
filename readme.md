@@ -17,4 +17,4 @@
   This repository contains Terraform code for deploying a 3-tier architecture on AWS. The architecture consists of a web tier with a load balancer, an application tier with EC2 instances, and a data tier with a MySQL database deployed on RDS. The infrastructure is designed to be deployed in the us-east-1 region.
 </p>
 
-<h4> Prerequisites </h4>
+<h2> Prerequisites </h2>
