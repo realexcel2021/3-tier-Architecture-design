@@ -36,19 +36,6 @@ resource "aws_lb_target_group" "two_tier_lb_tg" {
   }
 }
 
-# Target group attachment to instances
-
-resource "aws_lb_target_group_attachment" "tg_att_01" {
-  target_group_arn = aws_lb_target_group.two_tier_lb_tg.arn
-  target_id        = module.Two-Tier-App-Server-01.id
-  port             = 80
-}
-
-resource "aws_lb_target_group_attachment" "tg_att_02" {
-  target_group_arn = aws_lb_target_group.two_tier_lb_tg.arn
-  target_id        = module.Two-Tier-App-Server-02.id
-  port             = 80
-}
 
 # Load balancer Listener to target group
 

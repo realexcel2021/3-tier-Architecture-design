@@ -27,6 +27,9 @@ resource "aws_autoscaling_group" "app_tier_asg" {
     min_size = 2
     max_size = 3
     vpc_zone_identifier = [ module.private_subnet_1.id, module.private_subnet_2.id, module.private_subnet_3.id]
+    target_group_arns = [ aws_lb_target_group.two_tier_lb_tg.arn ]
+    health_check_type = "EC2"
+    force_delete = true
 
     launch_template {
         id = aws_launch_template.app_tier_instances.id
