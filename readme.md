@@ -25,6 +25,5 @@ To use this terraform code, you need to have the following prerequisites:
 <h2> Getting Started </h2>
 <p> Follow the steps below to get started with this infrastructure as code using Terraform: </p>
 
-<p> 1. Clone this repository to your local machine:
+<p> 1. Clone this repository to your local machine: </p>
 ` git clone https://github.com/realexcel2021/3-tier-Architecture-design `
-</p>
