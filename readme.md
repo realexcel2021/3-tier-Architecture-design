@@ -18,3 +18,5 @@
 </p>
 
 <h2> Prerequisites </h2>
+To use this terraform code, you need to have the following prerequisites:
+1. <p> <a href="https://www.terraform.io/downloads.html"> Terraform </a> Installed on your machine </p>
