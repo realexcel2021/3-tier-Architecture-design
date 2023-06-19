@@ -13,7 +13,7 @@
 <p> :heavy_check_mark: 1 Internet Gateway </p>
 <p> :heavy_check_mark: US-EAST-1 </p>
 
-  This repository contains Terraform code for deploying a 3-tier architecture on AWS. The architecture consists of a web tier with a load balancer, an application tier with EC2 instances, and a data tier with a MySQL database deployed on RDS. The infrastructure is designed to be deployed in the us-east-1 region.
+  This repository contains Terraform code for deploying a 3-tier architecture on AWS. The architecture consists of a web tier with a load balancer, an application tier with EC2 instances, and a data tier with a MySQL database deployed on RDS. The infrastructure is designed to be deployed in the us-east-1 region. You can use autoscaling feature in the auto scaling branch
 
 
 ## Prerequisites 
