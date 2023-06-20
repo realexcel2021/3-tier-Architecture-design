@@ -32,6 +32,7 @@ Follow the steps below to get started with this infrastructure as code using Ter
 5. If the plan looks good, you can apply the changes to provision the infrastructure: `terraform apply`
 6. After the Terraform apply completes successfully, it will display the output variables containing information about the provisioned resources.
 
+
 ## Architecture Overview
 This infrastructure provisions the following resources in the us-east-1 region:
 
